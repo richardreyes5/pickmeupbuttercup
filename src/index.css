@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-typewriter: 'Special Elite', 'Courier New', monospace;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: var(--font-typewriter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
